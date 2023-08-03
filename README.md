@@ -1,1 +1,0 @@
-# prueba-tecnica-taller-digital
