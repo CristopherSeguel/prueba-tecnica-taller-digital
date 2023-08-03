@@ -1,0 +1,112 @@
+/* Estilos CSS para el fondo degradado */
+body {
+    background: linear-gradient(to bottom right, #eeaeca, #94bbe9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos CSS para el contenedor */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos CSS para la card */
+.card {
+    font-family: "Roboto", sans-serif; /* Utilizar la fuente Roboto para la card */
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Agregar sombra a la card */
+    width: 300px;
+    color: #333; /* Cambiar el color del texto a un tono más oscuro */
+}
+
+
+/* Estilos CSS para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666; /* Cambiar el color del texto a un tono de gris más oscuro */
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"],
+button {
+    font-family: "Roboto", sans-serif; /* Utilizar la fuente Roboto para la card */
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #666; /* Cambiar el color del texto a un tono de gris más oscuro */
+
+}
+
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #00aaff; /* Cambiar el color del borde a celeste */
+    box-shadow: 0 0 5px #00aaff; /* Agregar una sombra celeste suave */
+    outline: none; /* Quitar el contorno predeterminado */
+}
+
+button {
+    font-family: "Roboto", sans-serif; /* Utilizar la fuente Roboto para la card */
+    background: #00aaff;
+    color: #666;
+    cursor: pointer;
+    width: 70%; /* Establecer el ancho del botón al 70% */
+    margin: 0 auto; /* Centrar el botón horizontalmente dentro de la card */
+}
+/* Estilos CSS para el checkbox y su etiqueta */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Cambiar el orden del checkbox para que aparezca primero */
+input[type="checkbox"] {
+    margin-right: 5px;
+    order: -1;
+    
+}
+
+/* Estilos CSS para el texto "I accept the terms of use" */
+#acceptTerms {
+    /* Cambiar el orden del elemento para que aparezca después del checkbox */
+    order: 1;
+    /* Alinear el texto a la derecha */
+    text-align: center;
+    margin-left: 5px; /* Añadir un margen derecho para separarlo del checkbox */
+    margin-top: 10px;
+}
+
+/* Estilos CSS para el título "Sign Up" */
+h1 {
+    font-family: "Roboto", sans-serif; /* Utilizar la fuente Roboto para el título */
+    text-align: left; /* Alinear el título a la izquierda */
+}
+
+/* Estilos CSS para el subtítulo "Want to sign up? Fill out this form!" */
+h6 {
+    font-family: "Roboto", sans-serif; /* Utilizar la fuente Roboto para el subtítulo */
+    text-align: left; /* Alinear el subtítulo a la izquierda */
+    margin-bottom: 20px; /* Agregar margen inferior para separarlo de los campos del formulario */
+    border-bottom: 1px solid #ccc; /* Agregar una línea separadora debajo del subtítulo */
+    padding-bottom: 10px; /* Agregar espacio entre la línea y los campos del formulario */
+    color: #666; /* Cambiar el color del texto a un tono de gris más oscuro */
+    font-size: 14px;
+}
+

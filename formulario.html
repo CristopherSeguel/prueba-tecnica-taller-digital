@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Sign Up</h1>
+            <h6>Want to sign up fill out this form!</h6>
+            <form id="miFormulario" action="#" method="post">
+                <!-- Campos del formulario -->
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" required>
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+
+                <div class="checkbox-container">
+                    <label for="acceptTerms">I accept the terms of use</label>
+                    <input type="checkbox" name="acceptTerms" id="acceptTerms" required>
+
+                </div>
+
+                <!-- Botón de envío -->
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
